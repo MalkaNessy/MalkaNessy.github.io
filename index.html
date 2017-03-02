@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+	<head> 
+	  <meta charset="utf-8">
+	  <title>Malka Korets  | Web Developer</title>
+	  <!-- <link rel="stylesheet" href="css/normalize.css"> -->
+	  <link href='https://fonts.googleapis.com/css?family=Changa+One|Open+Sans:400,400italic,700,700italic,800' rel='stylesheet' type='text/css'>
+	  <link href='https://fonts.googleapis.com/css?family=Meie+Script|Molle:400italic' rel='stylesheet' type='text/css'>
+	  <link rel="stylesheet" href="css/style.css">
+	  <!-- <link rel="stylesheet" href="css/responsive.css"> -->
+	  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	  <!-- <script src="http://code.jquery.com/jquery-1.11.0.min.js" type="text/javascript" charset="utf-8"></script> -->
+	 
+	  <script src="jquery-3.1.1.js"></script>
+	  <script src="js/app.js"></script>
+	   <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.7/angular.min.js"></script>
+	  <script src="js/appang.js"></script>
+	  
+    <script src="js/MainController.js"></script>
+	</head>
+
+<body  ng-app="myApp">
+
+
+
+
+
+
+ 
+<div id="wrapper" ng-controller="MainController">
+    <header>
+	  <div id="site-branding">	
+		<h1 id="site_title">{{sitetitle}} </h1>
+		<h2 id="site_descriprion">Junior front-end developer</h2>
+	  </div>
+	</header>
+	
+	<div class="clear"> </div>
+		<div class="gallery">
+				{{projview.name}}
+					<div class="blogpost">
+						<div class="blogpostoverlay" ng-click="blog1()"><h3 class="blogposttitle">{{}}</h3> </div>
+						<img src="img/pict1.jpg" alt="Smiley face" >
+					</div>
+				
+					<div class="blogpost">
+						<div class="blogpostoverlay" ng-click="blog2()"><h3 class="blogposttitle">Название проекта</h3> </div>
+						<img src="img/pict2.jpg" alt="Smiley face" >
+					</div>
+					
+					<div class="blogpost">
+						<div class="blogpostoverlay" ng-click="blog3()"><h3 class="blogposttitle">Название проекта</h3> </div>
+						<img src="img/pict3.jpg" alt="Smiley face" >
+					</div>
+					
+					<div class="blogpost">
+						<div class="blogpostoverlay" ng-click="blog4()"><h3 class="blogposttitle">Название проекта</h3> </div>
+						<img src="img/pict4.jpg" alt="Smiley face" >
+					</div>
+					
+		</div> <!-- class="gallery" -->				
+			
+			
+	<div class="clear"> </div>
+	<footer>
+		<section id="primary" class="p-about">  
+		<h3>Don't be shy to send me a message! </h3>  
+			<form>
+			  <p class="inform">Your name:
+			  <input type="text" name="firstname" ></p>
+			  
+			  <p  class="inform">E-mail:
+			  <input type="email" name="email" ></p >
+			  
+			  <p  class="inform">Your message:<br>
+			  <textarea name="message" id="data_content" rows="10" cols="50"></textarea><br>
+			  <input type="submit" value="Submit" class="inform"></p >
+			  
+			</form>
+		</section>
+			
+		<section id="secondary">  
+			<h3>Contacts: </h3>
+			<ul class="contact-info"> 
+			  <li class="mail"> E-mail: <a href="mailto:malka.nessy@gmail.com">malka.nessy@gmail.com </a></li>
+			  <li class="skype"> <span class="skype">Skype: azarica </span><script type="text/javascript" src="https://secure.skypeassets.com/i/scom/js/skype-uri.js"></script>
+<div id="SkypeButton_Call_azarica_1">
+ <script type="text/javascript">
+ Skype.ui({
+ "name": "chat",
+ "element": "SkypeButton_Call_azarica_1",
+ "participants": ["azarica"],
+ "imageColor": "white"
+ });
+ </script>
+</div>
+			  </li> 
+			  <li class="facebook">Facebook: <a href="https://www.facebook.com/malka.korets" target="_blank">Malka Korets</a> </li> 
+			
+			  
+			</ul>
+		</section>
+</footer>
+	<div class="clear"> </div>
+<div id="overlay">
+  <div id="container">
+	<img src="img/pict1.jpg" alt="Smiley face" >
+	<h4 class="overlay-title"> {{prog1.name}}<h4>
+	<div class="overlay-describ"> 
+		<p class="craft">{{prog1.craft}} </p>
+		<p class="copywrite">copywrite p </p>
+		<p class="based-on">based-on p </p>
+
+		<div class="clear"> </div>
+		
+		<p>descriptipon p descriptipon p descriptipon p descriptipon p descriptipon p descriptipon p </p>
+		<p>descriptipon p descriptipon p descriptipon p descriptipon p descriptipon p descriptipon p descriptipon p descriptipon p descriptipon p  </p>
+		<p class="vizit"><a href="#" target="_blank">visit site (will open in a new tab) </a> </p>
+	</div>
+  </div> <!-- class="container" -->
+</div>	
+</div><!--  wrapper  -->
+
+</body>
+	
+</html>
+	
