@@ -33,6 +33,7 @@ app.controller('MainController', ['$scope', function($scope) {
         name: 'First project', 
         craft: 'Malka Korets',
         basedon: 'HTML5, CSS3, JQuery, Angular' ,
+		imageprev: 'img/pict1.jpg',
         description1:  'Краткое описание в первом абзаце',
         description2:  'Краткое описание во втором абзаце',
 		linktosite: 'https://www.w3schools.com/angular/angular_scopes.asp'
@@ -41,6 +42,7 @@ app.controller('MainController', ['$scope', function($scope) {
         name: 'Second project', 
         craft: 'Malka Korets2',
         basedon: 'HTML5, CSS3, JQuery, Angular2' ,
+		imageprev: 'img/pict2.jpg',
         description1:  'Краткое описание в первом абзаце2',
         description2:  'Краткое описание во втором абзаце2',
 		linktosite: 'href="#" ' 
@@ -49,6 +51,7 @@ app.controller('MainController', ['$scope', function($scope) {
         name: 'Third project', 
         craft: 'Malka Korets3',
         basedon: 'HTML5, CSS3, JQuery, Angular3' ,
+		imageprev: 'img/pict3.jpg',
         description1:  'Краткое описание в первом абзаце3',
         description2:  'Краткое описание во втором абзаце3',
 		linktosite: 'href="#" '
@@ -57,6 +60,7 @@ app.controller('MainController', ['$scope', function($scope) {
         name: 'Forth project', 
         craft: 'Malka Korets4', 
         basedon: 'HTML5, CSS3, JQuery, Angular4' ,
+		imageprev: 'img/pict4.jpg',
         description1:  'Краткое описание в первом абзаце4',
         description2:  'Краткое описание во втором абзаце4',
 		linktosite: 'href="#" '
