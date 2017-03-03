@@ -4,6 +4,8 @@ app.controller('MainController', ['$scope', function($scope) {
   $scope.sitetitle = 'Malka Korets';
   $scope.sitedescription = 'Junior front-end developer';
   
+  
+  
   $scope.blog1 = function (valueToAdd) {
 	  console.log("clicked blog1");
 	  $scope.projview = $scope.projects[0]; 
@@ -60,6 +62,8 @@ app.controller('MainController', ['$scope', function($scope) {
 		linktosite: 'href="#" '
       } 
     ];
+	
+	/* $scope.projview = $scope.projects[3]; */
   
   
    
@@ -75,15 +79,18 @@ return unit;
  
 
 
-  
+console.log('end of MainController definition')  
   
 }]);
 
-app.directive("overName", function() {
-    return {
-        restrict : "C",
-        template : "<p>Made by a directive!</p>"
-    };
-});
 
+/* Выводит список в обратном порядке
 
+<div ng-init="names=['Jani','Hege','Kai']">
+  <p>Looping with ng-repeat:</p>
+  <ul>
+    <li ng-repeat="x in names | orderBy: 'created_at':true ">
+      {{ x }}
+    </li>
+  </ul>
+</div> */
