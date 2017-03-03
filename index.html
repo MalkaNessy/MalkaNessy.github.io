@@ -10,23 +10,19 @@
 	  <!-- <link rel="stylesheet" href="css/responsive.css"> -->
 	  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 	  <!-- <script src="http://code.jquery.com/jquery-1.11.0.min.js" type="text/javascript" charset="utf-8"></script> -->
+	  	   <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.7/angular.min.js"></script>
+<script src="jquery-3.1.1.js"></script>
+
 	 
-	  <script src="jquery-3.1.1.js"></script>
-	  <script src="js/app.js"></script>
-	   <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.7/angular.min.js"></script>
-	  <script src="js/appang.js"></script>
+	 
 	  
-    <script src="js/MainController.js"></script>
+	  <script src="js/app.js"></script>
+	  
 	</head>
 
 <body  ng-app="myApp">
-
-
-
-
-
-
- 
+  <script src="js/appang.js"></script>
+	  <script src="js/MainController.js"></script>
 <div id="wrapper" ng-controller="MainController">
     <header>
 	  <div id="site-branding">	
@@ -107,7 +103,7 @@
 	<div class="clear"> </div>
 <div id="overlay">
   <div id="container">
-	<img src="img/pict1.jpg" alt="Smiley face" >
+	<img src="{{projview.imageprev}}" alt="Smiley face" >
 	<h4 class="overlay-title"> {{projview.name}}<h4>
 	<div class="overlay-describ"> 
 		<p class="craft">Craft: {{projview.craft}} </p>
