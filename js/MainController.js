@@ -1,7 +1,8 @@
 
 
 app.controller('MainController', ['$scope', function($scope) { 
-  $scope.sitetitle = 'Malka Korets'; 
+  $scope.sitetitle = 'Malka Korets';
+  $scope.sitedescription = 'Junior front-end developer';
   
   $scope.blog1 = function (valueToAdd) {
 	  console.log("clicked blog1");
@@ -32,7 +33,7 @@ app.controller('MainController', ['$scope', function($scope) {
         basedon: 'HTML5, CSS3, JQuery, Angular' ,
         description1:  'Краткое описание в первом абзаце',
         description2:  'Краткое описание во втором абзаце',
-		linktosite: 'href="#" '
+		linktosite: 'https://www.w3schools.com/angular/angular_scopes.asp'
       }, 
      { 
         name: 'Second project', 

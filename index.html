@@ -31,7 +31,7 @@
     <header>
 	  <div id="site-branding">	
 		<h1 id="site_title">{{sitetitle}} </h1>
-		<h2 id="site_descriprion">Junior front-end developer</h2>
+		<h2 id="site_descriprion">{{sitedescription}}</h2>
 	  </div>
 	</header>
 	
@@ -114,7 +114,8 @@
 		
 		<p>{{projview.description1}} </p>
 		<p>{{projview.description2}} </p>
-		<p class="vizit"><a {{projview.linktosite}} target="_blank">visit site (will open in a new tab) </a> </p>
+		<p class="vizit"><a ng-href="{{projview.linktosite}}" target="_blank">visit site (will open in a new tab) </a> </p>
+	
 	</div>
   </div> <!-- class="container" -->
 </div>	
