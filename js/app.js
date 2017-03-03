@@ -2,8 +2,8 @@
 //Solution: Create an overlay with the large image - Lightbox
 $(document).ready(function() {
 	
-/*	var $overlay = $("#overlay");
-	$overlay.show();
+	var $overlay = $("#overlay");
+	/* $overlay.show(); */
 	
 	
 	$(".blogpost").click(function(event){
@@ -13,7 +13,7 @@ $(document).ready(function() {
 	$overlay.click(function(){
 		$overlay.hide();//Hide the overlay
 	});
-	
+/*	
 var $overlay = $('<div id="overlay"></div>');
 var $image = $("<img>");
 var $caption = $("<p></p>");

@@ -39,22 +39,22 @@
 		<div class="gallery">
 				{{projview.name}}
 					<div class="blogpost">
-						<div class="blogpostoverlay" ng-click="blog1()"><h3 class="blogposttitle">{{}}</h3> </div>
+						<div class="blogpostoverlay" ng-click="blog1()"><h3 class="blogposttitle">{{projview.name}}</h3> </div>
 						<img src="img/pict1.jpg" alt="Smiley face" >
 					</div>
 				
 					<div class="blogpost">
-						<div class="blogpostoverlay" ng-click="blog2()"><h3 class="blogposttitle">Название проекта</h3> </div>
+						<div class="blogpostoverlay" ng-click="blog2()"><h3 class="blogposttitle">{{projview.name}}</h3> </div>
 						<img src="img/pict2.jpg" alt="Smiley face" >
 					</div>
 					
 					<div class="blogpost">
-						<div class="blogpostoverlay" ng-click="blog3()"><h3 class="blogposttitle">Название проекта</h3> </div>
+						<div class="blogpostoverlay" ng-click="blog3()"><h3 class="blogposttitle">{{projview.name}}</h3> </div>
 						<img src="img/pict3.jpg" alt="Smiley face" >
 					</div>
 					
 					<div class="blogpost">
-						<div class="blogpostoverlay" ng-click="blog4()"><h3 class="blogposttitle">Название проекта</h3> </div>
+						<div class="blogpostoverlay" ng-click="blog4()"><h3 class="blogposttitle">{{projview.name}}</h3> </div>
 						<img src="img/pict4.jpg" alt="Smiley face" >
 					</div>
 					
@@ -105,17 +105,16 @@
 <div id="overlay">
   <div id="container">
 	<img src="img/pict1.jpg" alt="Smiley face" >
-	<h4 class="overlay-title"> {{prog1.name}}<h4>
+	<h4 class="overlay-title"> {{projview.name}}<h4>
 	<div class="overlay-describ"> 
-		<p class="craft">{{prog1.craft}} </p>
-		<p class="copywrite">copywrite p </p>
-		<p class="based-on">based-on p </p>
+		<p class="craft">Craft: {{projview.craft}} </p>
+		<p class="based-on">{{projview.basedon}} </p>
 
 		<div class="clear"> </div>
 		
-		<p>descriptipon p descriptipon p descriptipon p descriptipon p descriptipon p descriptipon p </p>
-		<p>descriptipon p descriptipon p descriptipon p descriptipon p descriptipon p descriptipon p descriptipon p descriptipon p descriptipon p  </p>
-		<p class="vizit"><a href="#" target="_blank">visit site (will open in a new tab) </a> </p>
+		<p>{{projview.description1}} </p>
+		<p>{{projview.description2}} </p>
+		<p class="vizit"><a {{projview.linktosite}} target="_blank">visit site (will open in a new tab) </a> </p>
 	</div>
   </div> <!-- class="container" -->
 </div>	

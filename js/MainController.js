@@ -5,64 +5,58 @@ app.controller('MainController', ['$scope', function($scope) {
   
   $scope.blog1 = function (valueToAdd) {
 	  console.log("clicked blog1");
-	  $scope.prog1 = $scope.projects[0]; 
+	  $scope.projview = $scope.projects[0]; 
    }
   
    $scope.blog2 = function (valueToAdd) {
 	  console.log("clicked blog2");
-	  $scope.prog1 = $scope.projects[1]; 
+	  $scope.projview = $scope.projects[1]; 
    }
    
     $scope.blog3 = function (valueToAdd) {
 	  console.log("clicked blog3");
+	  $scope.projview = $scope.projects[2]
    }
    
     $scope.blog4 = function (valueToAdd) {
 	  console.log("clicked blog4");
+	  $scope.projview = $scope.projects[3]
    }
   
-  $scope.prog1 = {
-		name: 'temp', 
-        craft: 'Malka Korets', 
-        copywriter: 'Malka Korets', 
-        basedon: 'HTML5, CSS3, JQuery, Angular' ,
-        description1:  'Краткое описание в первом абзаце',
-        description2:  'Краткое описание во втором абзаце',
-  }
-  
+    
   $scope.projects = 
    [ 
       { 
         name: 'First project', 
-        craft: 'Malka Korets', 
-        copywriter: 'Malka Korets', 
+        craft: 'Malka Korets',
         basedon: 'HTML5, CSS3, JQuery, Angular' ,
         description1:  'Краткое описание в первом абзаце',
         description2:  'Краткое описание во втором абзаце',
+		linktosite: 'href="#" '
       }, 
      { 
         name: 'Second project', 
-        price: 8, 
-        pubdate: new Date('2013', '08', '01'), 
-        cover: 'img/program-or-be-programmed.jpg',
-        likes:  0,
-        dislikes: 0 
+        craft: 'Malka Korets2',
+        basedon: 'HTML5, CSS3, JQuery, Angular2' ,
+        description1:  'Краткое описание в первом абзаце2',
+        description2:  'Краткое описание во втором абзаце2',
+		linktosite: 'href="#" ' 
       } ,
    	  { 
         name: 'Third project', 
-        price: 20, 
-        pubdate: new Date('2015', '06', '07'), 
-        cover: 'img/the-book-of-trees.jpg',
-        likes:  0,
-        dislikes: 0 
+        craft: 'Malka Korets3',
+        basedon: 'HTML5, CSS3, JQuery, Angular3' ,
+        description1:  'Краткое описание в первом абзаце3',
+        description2:  'Краткое описание во втором абзаце3',
+		linktosite: 'href="#" '
       }, 
      { 
         name: 'Forth project', 
-        price: 7, 
-        pubdate: new Date('2016', '02', '04'), 
-        cover: 'img/program-or-be-programmed.jpg',
-        likes:  0,
-        dislikes: 0
+        craft: 'Malka Korets4', 
+        basedon: 'HTML5, CSS3, JQuery, Angular4' ,
+        description1:  'Краткое описание в первом абзаце4',
+        description2:  'Краткое описание во втором абзаце4',
+		linktosite: 'href="#" '
       } 
     ];
   
