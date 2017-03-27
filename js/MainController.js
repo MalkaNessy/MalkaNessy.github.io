@@ -30,41 +30,32 @@ app.controller('MainController', ['$scope', function($scope) {
   $scope.projects = 
    [ 
       { 
-        name: 'First project', 
+        name: 'Lectures', 
         craft: 'Malka Korets',
-        basedon: 'HTML5, CSS3, JQuery, Angular' ,
-		imageprev: 'img/pict1.jpg',
-        description1:  'Краткое описание в первом абзаце',
-        description2:  'Краткое описание во втором абзаце',
-		linktosite: 'https://www.w3schools.com/angular/angular_scopes.asp'
+        basedon: 'HTML/CSS3, JavaScript, QJuery, PHP, MySQL' ,
+		imageprev: 'img/lectures.jpg',
+        description1:  'Site for the lecturer to store some educational materials.',
+        description2:  '',
+		linktosite: 'http://www.test1.ru/Lectur/index.php'
       }, 
      { 
-        name: 'Second project', 
-        craft: 'Malka Korets2',
-        basedon: 'HTML5, CSS3, JQuery, Angular2' ,
-		imageprev: 'img/pict2.jpg',
-        description1:  'Краткое описание в первом абзаце2',
-        description2:  'Краткое описание во втором абзаце2',
-		linktosite: 'href="#" ' 
+        name: "Copywriter's portfolio", 
+        craft: 'Malka Korets',
+        basedon: 'HTML/CSS3, JavaScript, QJuery, PHP, MySQL' ,
+		imageprev: 'img/copywriter.jpg',
+        description1:  "Portfolio of my copywriter's works",
+        description2:  '',
+		linktosite: 'href="http://www.test1.ru/Copywriter/index.php" ' 
       } ,
    	  { 
-        name: 'Third project', 
-        craft: 'Malka Korets3',
-        basedon: 'HTML5, CSS3, JQuery, Angular3' ,
-		imageprev: 'img/pict3.jpg',
-        description1:  'Краткое описание в первом абзаце3',
-        description2:  'Краткое описание во втором абзаце3',
-		linktosite: 'href="#" '
-      }, 
-     { 
-        name: 'Forth project', 
-        craft: 'Malka Korets4', 
-        basedon: 'HTML5, CSS3, JQuery, Angular4' ,
-		imageprev: 'img/pict4.jpg',
-        description1:  'Краткое описание в первом абзаце4',
-        description2:  'Краткое описание во втором абзаце4',
-		linktosite: 'href="#" '
-      } 
+        name: "Cartoons gallery", 
+        craft: 'Malka Korets',
+        basedon: 'HTML/CSS,JavaScript, JQuery, Angular' ,
+		imageprev: 'img/cartoons.jpg',
+        description1:  'On this site you can watch YouTube video or click on link to watch video on another site',
+        description2:  '',
+		linktosite: 'file:///Z:/home/test1.ru/www/Cartoons/index.html '
+      }
     ];
 	
 	/* $scope.projview = $scope.projects[3]; */
