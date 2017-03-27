@@ -55,6 +55,7 @@
   text-transform: uppercase;
   font-weight: 600;
   border-bottom: 4px solid #57c66d;
+  margin-right: 30px;
 }
 
 h2 {
@@ -62,7 +63,7 @@ h2 {
   margin: 10px 0 0;
   font-weight: normal;
     margin-bottom: 30px;
-    padding-left: 30px;
+   /*  padding-left: 30px; */
     padding-right: 30px;
 }
  
@@ -78,6 +79,17 @@ h2 {
   text-align: center;
 }
 
+/* .gallery .blogpost {
+	/* display: inline-block; 
+	padding: 8px;
+	background:#f5f5dc ;
+	border:3px double #369f4b  ;
+	margin:10px;
+	height: 200px;
+	width: 220px;
+	text-align: center;
+} */
+
 a:hover {
 	color: #000;
 	transition: all 0.3s ease-out;
@@ -86,12 +98,15 @@ a:hover {
 .blogpost {
     overflow: hidden;
     position: relative;
-		max-width: 14em; 
-		max-height: 14em;
+		/* max-width: 14em; 
+		max-height: 14em; */
+	height: 200px;
+	width: 240px;
+    /* padding: 8px;	 */
     background-size: cover;
     background-position: center;
 	transition: all .2s ease-in-out;
-	text-align: center;
+	/* text-align: center; */
 	 float: left;
 	 border: 1px solid #1e4e0f;
 	 margin: 2.5%;
@@ -111,19 +126,20 @@ a:hover {
     height: 100%;
     position: absolute;
     left: 0px;
+	top: 0px;
     opacity: 0;
 }
 .blogpostoverlay:hover {
 	opacity: 0.9;
 	transition: all 0.5s ease-out;
 }	  
-.blogposttitle {
+h3.blogposttitle {
     font-size: 18px;
     font-weight: 400;
     color: #fff;
     text-transform: uppercase;
     position: absolute;
-    bottom: 15px;
+    bottom: 2px;
     left: 10px;
 }	  
  
@@ -187,7 +203,20 @@ p#SkypeButton_Call_azarica_1_paraElement {
 	margin:0;
 	padding:0;
 }
-
+@media screen and (max-width: 680px) {
+	#primary {
+		width: 100%;
+	}
+	#secondary {
+		width: 100%;
+	}
+	
+	.inform {
+	font-size: 16px;
+	font-weight: normal;
+	/* margin-bottom: 10px; */ 
+}
+}
 
 
 /****************************
@@ -198,6 +227,7 @@ p#SkypeButton_Call_azarica_1_paraElement {
   background:rgba(0,0,0,0.7);
   width:100%;
   height:100%;
+ 
     position:absolute;
   top:0;
   left:0;
@@ -219,6 +249,7 @@ p#SkypeButton_Call_azarica_1_paraElement {
 
 #container {
 	width: 50%;
+	 min-width: 220px;
 	margin: 0 auto;
 	margin-top: 8%;
 	padding: 10px;

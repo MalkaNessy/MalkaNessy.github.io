@@ -61,21 +61,7 @@
 	
 	
 	<footer>
-		<section id="primary" class="p-about">  
-		<h3>Send me a message! </h3>  
-			<form>
-			  <p class="inform">Your name:
-			  <input type="text" name="firstname" ></p>
-			  
-			  <p  class="inform">E-mail:
-			  <input type="email" name="email" ></p >
-			  
-			  <p  class="inform">Your message:<br>
-			  <textarea name="message" id="data_content" rows="10" cols="50"></textarea><br>
-			  <input type="submit" value="Submit" class="inform"></p >
-			  
-			</form>
-		</section>
+		
 			
 		<section id="secondary">  
 			<h3>Contacts: </h3>
@@ -98,6 +84,22 @@
 			  
 			</ul>
 		</section>
+		
+		<section id="primary" class="p-about">  
+		<h3>Send me a message! </h3>  
+			<form>
+			  <p class="inform">Your name:
+			  <input type="text" name="firstname" ></p>
+			  
+			  <p  class="inform">E-mail:
+			  <input type="email" name="email" ></p >
+			  
+			  <p  class="inform">Your message:<br>
+			  <textarea name="message" id="data_content" rows="10" cols="50"></textarea><br>
+			  <input type="submit" value="Submit" class="inform"></p >
+			  
+			</form>
+		</section>
 </footer>
 	<div class="clear"> </div>
 <div id="overlay">
@@ -112,7 +114,7 @@
 		
 		<p>{{projview.description1}} </p>
 		<p>{{projview.description2}} </p>
-		<p class="vizit"><a ng-href="{{projview.linktosite}}" target="_blank">visit site (will open in a new tab) </a> </p>
+		<div class="vizit"><a ng-href="{{projview.linktosite}}" target="_blank">visit site</a> </div>
 	
 	</div>
   </div> <!-- class="container" -->
