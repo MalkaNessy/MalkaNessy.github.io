@@ -35,8 +35,12 @@
 	
 	<div class="clear"> </div>
 		<div class="gallery">
-				
-					<div class="blogpost">
+				<div class="blogpost" ng-repeat="project in projects| orderBy: 'created_at':true   "   >
+					<div class="blogpostoverlay" ng-click="over(project.clickId)"><h3 class="blogposttitle">{{project.name}}</h3> </div>
+					<img ng-src="{{project.imageprev}}" alt="image"  >
+				</div>
+				<!-- ng-click="overfilm(film.clickId)" -->
+					<!-- <div class="blogpost">
 						<div class="blogpostoverlay" ng-click="blog1()"><h3 class="blogposttitle">{{projects[0].name}}</h3> </div>
 						<img ng-src="{{projects[0].imageprev}}" alt="Smiley face" >
 					</div>
@@ -49,7 +53,7 @@
 					<div class="blogpost">
 						<div class="blogpostoverlay" ng-click="blog3()"><h3 class="blogposttitle">{{projects[2].name}}</h3> </div>
 						<img ng-src="{{projects[2].imageprev}}" alt="Smiley face" >
-					</div>
+					</div> -->
 					
 					
 					
