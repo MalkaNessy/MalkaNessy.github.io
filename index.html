@@ -31,65 +31,65 @@
 		<h1 id="site_title">{{sitetitle}} </h1>
 		<h2 id="site_descriprion">{{sitedescription}}</h2>
 	  </div>
+	  <section id="secondary">  
+		<h3>Contacts: </h3>
+		<ul class="contact-info"> 
+			<li class="mail"> E-mail: <a href="mailto:malka.nessy@gmail.com">malka.nessy@gmail.com </a></li>
+			<li class="skype"> <span class="skype">Skype: azarica </span> <script type="text/javascript" src="https://secure.skypeassets.com/i/scom/js/skype-uri.js"></script>
+				<!-- <div id="SkypeButton_Call_azarica_1">
+					<script type="text/javascript">
+					 Skype.ui({
+					 "name": "chat",
+					 "element": "SkypeButton_Call_azarica_1",
+					 "participants": ["azarica"],
+					 "imageColor": "white"
+					 });
+					 </script>
+				</div> -->
+			</li> 
+			<li class="facebook">Facebook: <a href="https://www.facebook.com/malka.korets" target="_blank">Malka Korets</a> </li> 
+			
+			  
+		</ul>
+	</section>
 	</header>
 	
 	<div class="clear"> </div>
-		<div class="gallery">
-				<div class="blogpost" ng-repeat="project in projects| orderBy: 'created_at':true   "   >
-					<div class="blogpostoverlay" ng-click="over(project.clickId)"><h3 class="blogposttitle">{{project.name}}</h3> </div>
-					<img ng-src="{{project.imageprev}}" alt="image"  >
-				</div>
-				<!-- ng-click="overfilm(film.clickId)" -->
-					<!-- <div class="blogpost">
-						<div class="blogpostoverlay" ng-click="blog1()"><h3 class="blogposttitle">{{projects[0].name}}</h3> </div>
-						<img ng-src="{{projects[0].imageprev}}" alt="Smiley face" >
-					</div>
-				
-					<div class="blogpost">
-						<div class="blogpostoverlay" ng-click="blog2()"><h3 class="blogposttitle">{{projects[1].name}}</h3> </div>
-						<img ng-src="{{projects[1].imageprev}}" alt="Smiley face" >
-					</div>
-					
-					<div class="blogpost">
-						<div class="blogpostoverlay" ng-click="blog3()"><h3 class="blogposttitle">{{projects[2].name}}</h3> </div>
-						<img ng-src="{{projects[2].imageprev}}" alt="Smiley face" >
-					</div> -->
-					
-					
-					
-		</div> <!-- class="gallery" -->				
-			
+	<div class="gallery">
+		<div class="blogpost" ng-repeat="project in projects| orderBy: 'created_at':true   "   >
+			<div class="blogpostoverlay" ng-click="over(project.clickId)"><h3 class="blogposttitle">{{project.name}}</h3> </div>
+			<img ng-src="{{project.imageprev}}" alt="image">
+		</div>
+	</div> <!-- class="gallery" -->				
 			
 	<div class="clear"> </div>
-	
-	
-	
+		
 	<footer>
 		
 			
-		<section id="secondary">  
-			<h3>Contacts: </h3>
-			<ul class="contact-info"> 
-			  <li class="mail"> E-mail: <a href="mailto:malka.nessy@gmail.com">malka.nessy@gmail.com </a></li>
-			  <li class="skype"> <span class="skype">Skype: azarica </span><script type="text/javascript" src="https://secure.skypeassets.com/i/scom/js/skype-uri.js"></script>
-<div id="SkypeButton_Call_azarica_1">
- <script type="text/javascript">
- Skype.ui({
- "name": "chat",
- "element": "SkypeButton_Call_azarica_1",
- "participants": ["azarica"],
- "imageColor": "white"
- });
- </script>
-</div>
-			  </li> 
-			  <li class="facebook">Facebook: <a href="https://www.facebook.com/malka.korets" target="_blank">Malka Korets</a> </li> 
+	<!-- <section id="secondary">  
+		<h3>Contacts: </h3>
+		<ul class="contact-info"> 
+			<li class="mail"> E-mail: <a href="mailto:malka.nessy@gmail.com">malka.nessy@gmail.com </a></li>
+			<li class="skype"> <span class="skype">Skype: azarica </span><script type="text/javascript" src="https://secure.skypeassets.com/i/scom/js/skype-uri.js"></script>
+				<div id="SkypeButton_Call_azarica_1">
+					<script type="text/javascript">
+					 Skype.ui({
+					 "name": "chat",
+					 "element": "SkypeButton_Call_azarica_1",
+					 "participants": ["azarica"],
+					 "imageColor": "white"
+					 });
+					 </script>
+				</div>
+			</li> 
+			<li class="facebook">Facebook: <a href="https://www.facebook.com/malka.korets" target="_blank">Malka Korets</a> </li> 
 			
 			  
-			</ul>
-		</section>
+		</ul>
+	</section> -->
 		
-		<section id="primary" class="p-about">  
+		<!-- <section id="primary" class="p-about">  
 		<h3>Send me a message! </h3>  
 			<form>
 			  <p class="inform">Your name:
@@ -103,7 +103,7 @@
 			  <input type="submit" value="Submit" class="inform"></p >
 			  
 			</form>
-		</section>
+		</section> -->
 </footer>
 	<div class="clear"> </div>
 <div id="overlay">

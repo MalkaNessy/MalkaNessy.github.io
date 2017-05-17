@@ -50,6 +50,26 @@ app.controller('MainController', ['$scope', function($scope) {
         description1:  'On this site you can watch YouTube video or click on link to watch video on another site',
         description2:  '',
 		linktosite: 'file:///Z:/home/test1.ru/www/Cartoons/index.html '
+      },
+   	  { 
+	  clickId: 3,
+        name: "Black Jack", 
+        craft: 'Malka Korets',
+        basedon: 'HTML/CSS,JavaScript' ,
+		imageprev: 'img/blackjack.jpg',
+        description1:  'Black Jack card game',
+        description2:  '',
+		linktosite: 'file:///Z:/home/test1.ru/www/BlackJack/index.html '
+      },
+	  {
+		  clickId: 4,
+        name: "Dragon Poker", 
+        craft: 'Malka Korets',
+        basedon: 'HTML/CSS,JavaScript' ,
+		imageprev: 'img/dragon.jpg',
+        description1:  'Card game',
+        description2:  '',
+		linktosite: 'file:///Z:/home/test1.ru/www/DragonPoker/index.html '
       }
     ];
 	
