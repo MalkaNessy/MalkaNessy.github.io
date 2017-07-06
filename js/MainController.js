@@ -70,6 +70,16 @@ app.controller('MainController', ['$scope', function($scope) {
         description1:  'Card game',
         description2:  '',
 		linktosite: 'file:///Z:/home/test1.ru/www/DragonPoker/index.html '
+      },
+	  {
+		  clickId: 5,
+        name: "MyBlog JS", 
+        craft: 'Malka Korets',
+        basedon: 'HTML/CSS,JavaScript' ,
+		imageprev: 'img/js_blog.jpg',
+        description1:  'Blog on JavaScript without data base',
+        description2:  '',
+		linktosite: 'file:///Z:/home/test1.ru/www/Blog/malka-blog.html '
       }
     ];
 	
