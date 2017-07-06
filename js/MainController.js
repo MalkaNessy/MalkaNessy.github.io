@@ -81,6 +81,17 @@ app.controller('MainController', ['$scope', function($scope) {
         description2:  '',
 		linktosite: 'file:///Z:/home/test1.ru/www/Blog/malka-blog.html '
       }
+	  ,
+	  {
+		  clickId: 6,
+        name: "Time", 
+        craft: 'Malka Korets, Yulia Tzukanova',
+        basedon: 'HTML/CSS,JavaScript' ,
+		imageprev: 'img/time.jpg',
+        description1:  'Application for measuring your "individual minute" ',
+        description2:  '',
+		linktosite: 'file:///Z:/home/test1.ru/www/Time/index.html '
+      }
     ];
 	
 $scope.projview = $scope.projects[1];  	
