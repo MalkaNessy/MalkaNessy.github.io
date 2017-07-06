@@ -29,7 +29,7 @@ app.controller('MainController', ['$scope', function($scope) {
 		imageprev: 'img/lectures.jpg',
         description1:  'Site for the lecturer to store some educational materials.',
         description2:  '',
-		linktosite: 'http://www.test1.ru/Lectur/index.php'
+		linktosite: 'https://github.com/MalkaNessy/Lectures'
       }, 
      { 
 	 clickId: 1,
@@ -39,7 +39,7 @@ app.controller('MainController', ['$scope', function($scope) {
 		imageprev: 'img/copywriter.jpg',
         description1:  "Portfolio of my copywriter's works",
         description2:  '',
-		linktosite: 'href="http://www.test1.ru/Copywriter/index.php" ' 
+		linktosite: 'https://github.com/MalkaNessy/Portfolio_copywriter" ' 
       } ,
    	  { 
 	  clickId: 2,
@@ -49,7 +49,7 @@ app.controller('MainController', ['$scope', function($scope) {
 		imageprev: 'img/cartoons.jpg',
         description1:  'On this site you can watch YouTube video or click on link to watch video on another site',
         description2:  '',
-		linktosite: 'file:///Z:/home/test1.ru/www/Cartoons/index.html '
+		linktosite: 'https://github.com/MalkaNessy/Cartoons_gallery'
       },
    	  { 
 	  clickId: 3,
@@ -59,7 +59,7 @@ app.controller('MainController', ['$scope', function($scope) {
 		imageprev: 'img/blackjack.jpg',
         description1:  'Black Jack card game',
         description2:  '',
-		linktosite: 'file:///Z:/home/test1.ru/www/BlackJack/index.html '
+		linktosite: 'https://github.com/MalkaNessy/Black_Jack '
       },
 	  {
 		  clickId: 4,
@@ -69,7 +69,7 @@ app.controller('MainController', ['$scope', function($scope) {
 		imageprev: 'img/dragon.jpg',
         description1:  'Card game',
         description2:  '',
-		linktosite: 'file:///Z:/home/test1.ru/www/DragonPoker/index.html '
+		linktosite: 'https://github.com/MalkaNessy/Dragon_Poker '
       },
 	  {
 		  clickId: 5,
@@ -79,7 +79,7 @@ app.controller('MainController', ['$scope', function($scope) {
 		imageprev: 'img/js_blog.jpg',
         description1:  'Blog on JavaScript without data base',
         description2:  '',
-		linktosite: 'file:///Z:/home/test1.ru/www/Blog/malka-blog.html '
+		linktosite: 'https://github.com/MalkaNessy/JS_only_Blog '
       }
 	  ,
 	  {
@@ -90,7 +90,7 @@ app.controller('MainController', ['$scope', function($scope) {
 		imageprev: 'img/time.jpg',
         description1:  'Application for measuring your "individual minute" ',
         description2:  '',
-		linktosite: 'file:///Z:/home/test1.ru/www/Time/index.html '
+		linktosite: 'https://github.com/MalkaNessy/Tsukanov_time '
       }
     ];
 	
