@@ -39,7 +39,7 @@ app.controller('MainController', ['$scope', function($scope) {
 		imageprev: 'img/copywriter.jpg',
         description1:  "Best works of my copywriter career",
         description2:  'Data base, CSS-dezign, admin panel without authorisation, no opportunity to add new article',
-		linktosite: 'https://github.com/MalkaNessy/Portfolio_copywriter" ' 
+		linktosite: 'https://github.com/MalkaNessy/Portfolio_copywriter ' 
       } ,
    	  { 
 	  clickId: 2,
