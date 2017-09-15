@@ -28,7 +28,7 @@ app.controller('MainController', ['$scope', function($scope) {
         basedon: 'HTML/CSS3, JavaScript, QJuery, PHP, MySQL' ,
 		imageprev: 'img/lectures.jpg',
         description1:  'Site for the lecturer to store some educational materials.',
-        description2:  '',
+        description2:  'text editor, data base, admin panel without authorisation, no opportunity to add new article',
 		linktosite: 'https://github.com/MalkaNessy/Lectures'
       }, 
      { 
@@ -37,8 +37,8 @@ app.controller('MainController', ['$scope', function($scope) {
         craft: 'Malka Korets',
         basedon: 'HTML/CSS3, JavaScript, QJuery, PHP, MySQL' ,
 		imageprev: 'img/copywriter.jpg',
-        description1:  "Portfolio of my copywriter's works",
-        description2:  '',
+        description1:  "Best works of my copywriter career",
+        description2:  'Data base, CSS-dezign, admin panel without authorisation, no opportunity to add new article',
 		linktosite: 'https://github.com/MalkaNessy/Portfolio_copywriter" ' 
       } ,
    	  { 
@@ -48,7 +48,7 @@ app.controller('MainController', ['$scope', function($scope) {
         basedon: 'HTML/CSS,JavaScript, JQuery, Angular' ,
 		imageprev: 'img/cartoons.jpg',
         description1:  'On this site you can watch YouTube video or click on link to watch video on another site',
-        description2:  '',
+        description2:  'Created for 5-year girl. None-commertial use only.',
 		linktosite: 'https://github.com/MalkaNessy/Cartoons_gallery'
       },
    	  { 
@@ -58,7 +58,7 @@ app.controller('MainController', ['$scope', function($scope) {
         basedon: 'HTML/CSS,JavaScript' ,
 		imageprev: 'img/blackjack.jpg',
         description1:  'Black Jack card game',
-        description2:  '',
+        description2:  'Simple game with overall UI look. For demonstration only',
 		linktosite: 'https://github.com/MalkaNessy/Black_Jack '
       },
 	  {
@@ -67,8 +67,8 @@ app.controller('MainController', ['$scope', function($scope) {
         craft: 'Malka Korets',
         basedon: 'HTML/CSS,JavaScript' ,
 		imageprev: 'img/dragon.jpg',
-        description1:  'Card game',
-        description2:  '',
+        description1:  "Card game based on Robert Asprin's books",
+        description2:  "Game with changing rules. Cards value depends on today's date or week day. For demonsration only",
 		linktosite: 'https://github.com/MalkaNessy/Dragon_Poker '
       },
 	  {
@@ -78,7 +78,7 @@ app.controller('MainController', ['$scope', function($scope) {
         basedon: 'HTML/CSS,JavaScript' ,
 		imageprev: 'img/js_blog.jpg',
         description1:  'Blog on JavaScript without data base',
-        description2:  '',
+        description2:  'CRUD actions,  JavaScript text editor, the overall UI look and navigation, local storage, JSON format',
 		linktosite: 'https://github.com/MalkaNessy/JS_only_Blog '
       }
 	  ,
@@ -89,7 +89,7 @@ app.controller('MainController', ['$scope', function($scope) {
         basedon: 'HTML/CSS,JavaScript' ,
 		imageprev: 'img/time.jpg',
         description1:  'Application for measuring your "individual minute" ',
-        description2:  '',
+        description2:  'Freelance project for Julia Tzukanova (psychologist in Ukraine). Allows to use special diagnostic method on-line',
 		linktosite: 'https://github.com/MalkaNessy/Tsukanov_time '
       }
     ];
