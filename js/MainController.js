@@ -91,6 +91,16 @@ app.controller('MainController', ['$scope', function($scope) {
         description1:  'Application for measuring your "individual minute" ',
         description2:  'Freelance project for Julia Tzukanova (psychologist in Ukraine). Allows to use special diagnostic method on-line',
 		linktosite: 'https://github.com/MalkaNessy/Tsukanov_time '
+      } ,
+	  {
+		clickId: 7,
+        name: "Come and back",
+        craft: 'Malka Korets',
+        basedon: 'HTML, Bootstrap 4, JavaScript, JQuery' ,
+		imageprev: 'img/comeback.jpg',
+        description1:  'Landing Bootstrap 4 page to distribute the book ',
+        description2:  'I will send the book for person who lives his email',
+		linktosite: 'https://github.com/MalkaNessy/comeback '
       }
     ];
 	
