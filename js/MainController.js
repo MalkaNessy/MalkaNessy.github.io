@@ -39,7 +39,7 @@ app.controller('MainController', ['$scope', function($scope) {
 		imageprev: 'img/copywriter.jpg',
         description1:  "Best works of my copywriter career",
         description2:  'Data base, CSS-dezign, admin panel without authorisation, no opportunity to add new article',
-		linktosite: 'https://github.com/MalkaNessy/Portfolio_copywriter ' 
+		linktosite: 'https://ownwriter.themalka.site/ ' 
       } ,
    	  { 
 	  clickId: 2,
@@ -59,7 +59,7 @@ app.controller('MainController', ['$scope', function($scope) {
 		imageprev: 'img/blackjack.jpg',
         description1:  'Black Jack card game',
         description2:  'Simple game with overall UI look. For demonstration only',
-		linktosite: 'https://github.com/MalkaNessy/Black_Jack '
+		linktosite: 'http://blackjack.themalka.site/'
       },
 	  {
 		  clickId: 4,
@@ -69,38 +69,39 @@ app.controller('MainController', ['$scope', function($scope) {
 		imageprev: 'img/dragon.jpg',
         description1:  "Card game based on Robert Asprin's books",
         description2:  "Game with changing rules. Cards value depends on today's date or week day. For demonsration only",
-		linktosite: 'https://github.com/MalkaNessy/Dragon_Poker '
+		linktosite: 'http://dragonpoker.themalka.site/ '
       },
+	  
 	  {
 		  clickId: 5,
-        name: "MyBlog JS", 
-        craft: 'Malka Korets',
-        basedon: 'HTML/CSS,JavaScript' ,
-		imageprev: 'img/js_blog.jpg',
-        description1:  'Blog on JavaScript without data base',
-        description2:  'CRUD actions,  JavaScript text editor, the overall UI look and navigation, local storage, JSON format',
-		linktosite: 'https://github.com/MalkaNessy/JS_only_Blog '
-      }
-	  ,
-	  {
-		  clickId: 6,
         name: "Time", 
         craft: 'Malka Korets, Yulia Tzukanova',
         basedon: 'HTML/CSS,JavaScript' ,
 		imageprev: 'img/time.jpg',
         description1:  'Application for measuring your "individual minute" ',
         description2:  'Freelance project for Julia Tzukanova (psychologist in Ukraine). Allows to use special diagnostic method on-line',
-		linktosite: 'https://github.com/MalkaNessy/Tsukanov_time '
+		linktosite: 'http://time.themalka.site/ '
       } ,
 	  {
-		clickId: 7,
+		clickId: 6,
         name: "Come and back",
         craft: 'Malka Korets',
         basedon: 'HTML, Bootstrap 4, JavaScript, JQuery' ,
 		imageprev: 'img/comeback.jpg',
         description1:  'Landing Bootstrap 4 page to distribute the book ',
         description2:  'I will send the book for person who lives his email',
-		linktosite: 'https://github.com/MalkaNessy/comeback '
+		linktosite: 'https://comeback.themalka.site/ '
+      }
+	  ,
+	  {
+		clickId: 7,
+        name: "Icon painter",
+        craft: 'Malka Korets',
+        basedon: 'HTML,CSS, Bootstrap 4, JavaScript, JQuery, PHP, SQL' ,
+		imageprev: 'img/comeback.jpg',
+        description1:  'Site for the painter ',
+        description2:  'Image gallery',
+		linktosite: 'http://olga-icons.info/ '
       }
     ];
 	
