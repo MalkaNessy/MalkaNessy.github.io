@@ -2,7 +2,7 @@
 
 app.controller('MainController', ['$scope', function($scope) { 
   $scope.sitetitle = 'Malka Korets';
-  $scope.sitedescription = 'Junior front-end developer';
+  $scope.sitedescription = 'Web developer';
 
   /*  $scope.over = function (clickId) {
 	  $scope.overview = $scope.cartoons[clickId];
