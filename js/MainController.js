@@ -98,7 +98,7 @@ app.controller('MainController', ['$scope', function($scope) {
         name: "Icon painter",
         craft: 'Malka Korets',
         basedon: 'HTML,CSS, Bootstrap 4, JavaScript, JQuery, PHP, SQL' ,
-		imageprev: 'img/comeback.jpg',
+		imageprev: 'img/tsipina.jpg',
         description1:  'Site for the painter ',
         description2:  'Image gallery',
 		linktosite: 'http://olga-icons.info/ '
