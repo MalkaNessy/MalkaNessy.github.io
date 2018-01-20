@@ -49,7 +49,7 @@ app.controller('MainController', ['$scope', function($scope) {
 		imageprev: 'img/cartoons.jpg',
         description1:  'On this site you can watch YouTube video or click on link to watch video on another site',
         description2:  'Created for 5-year girl. None-commertial use only.',
-		linktosite: 'https://github.com/MalkaNessy/Cartoons_gallery'
+		linktosite: 'http://themalka.site/cartoons/'
       },
    	  { 
 	  clickId: 3,
