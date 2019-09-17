@@ -50,7 +50,7 @@ app.controller('MainController', ['$scope', function($scope) {
 		imageprev: 'img/cartoons.jpg',
         description1:  'On this site you can watch YouTube video or click on link to watch video on another site',
         description2:  'Created for 5-year girl. None-commertial use only.',
-		linktosite: 'http://themalka.site/cartoons/'
+		linktosite: 'http://cartoons.themalka.site/'
       },
    	  { 
 	  clickId: 3,
@@ -92,8 +92,8 @@ app.controller('MainController', ['$scope', function($scope) {
         description1:  'Landing Bootstrap 4 page to distribute the book ',
         description2:  'I will send the book for person who lives his email',
 		linktosite: 'https://comeback.themalka.site/ '
-      }
-	  ,
+      } ,
+	  
 	  {
 		clickId: 7,
         name: "Icon painter",
@@ -103,7 +103,19 @@ app.controller('MainController', ['$scope', function($scope) {
         description1:  'Site for the painter ',
         description2:  'Image gallery',
 		linktosite: 'http://olga-icons.info/ '
+      },
+	   {
+		clickId: 8,
+        name: "React ToDo Time menager",
+        craft: 'Malka Korets',
+        basedon: 'React' ,
+		imageprev: 'img/ReactToDoTimer.jpg',
+        description1:  'React app to plan my daily affairs.   ',
+        description2:  'Вecide how much time you want to spend today for each activity ',
+		linktosite: 'https://codepen.io/malkanessy/full/eQqzzJ/ '
       }
+	 
+	  
     ];
 	
 $scope.projview = $scope.projects[1];  	
