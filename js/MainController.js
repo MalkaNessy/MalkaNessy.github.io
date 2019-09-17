@@ -21,7 +21,17 @@ app.controller('MainController', ['$scope', function($scope) {
     
   $scope.projects = 
    [ 
-      
+      { 
+	 clickId: 0,
+        name: "Desktop vocabulary", 
+        craft: 'Malka Korets',
+        basedon: 'HTML/CSS3, JavaScript, Python, Bottle' ,
+		imageprev: 'img/vocabulary.jpg',
+        description1:  "App for learning foreign language",
+        description2:  '',
+		linktosite: 'https://github.com/MalkaNessy/PersVocabulary/ ' 
+      } ,
+	  
      { 
 	 clickId: 1,
         name: "Copywriter's portfolio", 
