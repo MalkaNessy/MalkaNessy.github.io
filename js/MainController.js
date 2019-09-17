@@ -21,16 +21,7 @@ app.controller('MainController', ['$scope', function($scope) {
     
   $scope.projects = 
    [ 
-      { 
-	  clickId: 0,
-        name: 'Lectures', 
-        craft: 'Malka Korets',
-        basedon: 'HTML/CSS3, JavaScript, QJuery, PHP, MySQL' ,
-		imageprev: 'img/lectures.jpg',
-        description1:  'Site for the lecturer to store some educational materials.',
-        description2:  'text editor, data base, admin panel without authorisation, no opportunity to add new article',
-		linktosite: 'https://github.com/MalkaNessy/Lectures'
-      }, 
+      
      { 
 	 clickId: 1,
         name: "Copywriter's portfolio", 
